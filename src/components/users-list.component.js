@@ -65,10 +65,10 @@ export default class UsersList extends Component {
         <table className="table">
           <thead className="thead-light">
             <tr>
-              <th onClick={e => this.onSort('firstname')} title="click to sort" style={{cursor:"pointer"}}>First Name</th>
-              <th onClick={e => this.onSort('lastname')} title="click to sort" style={{cursor:"pointer"}}>Last Name </th>
-              <th onClick={e => this.onSort('email')} title="click to sort" style={{cursor:"pointer"}}>email </th>
-              <th onClick={e => this.onSort('phone')} title="click to sort" style={{cursor:"pointer"}}>Phone</th>
+              <th onClick={e => this.onSort('firstname')} title="click to sort" style={{cursor:"pointer"}}>First Name ↓↑</th>
+              <th onClick={e => this.onSort('lastname')} title="click to sort" style={{cursor:"pointer"}}>Last Name ↓↑</th>
+              <th onClick={e => this.onSort('email')} title="click to sort" style={{cursor:"pointer"}}>email ↓↑</th>
+              <th onClick={e => this.onSort('phone')} title="click to sort" style={{cursor:"pointer"}}>Phone ↓↑</th>
               <th>Update</th>
             </tr>
           </thead>

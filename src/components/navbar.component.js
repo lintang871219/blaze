@@ -15,6 +15,9 @@ export default class Navbar extends Component {
           <li className="navbar-item">
           <Link to="/" className="nav-link">User List</Link>
           </li>
+          <li className="navbar-item">
+          <Link to="/grid" className="nav-link">AG-grid</Link>
+          </li>
         </ul>
         </div>
       </nav>

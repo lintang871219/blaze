@@ -61,6 +61,8 @@ export default class CreateUser extends Component {
       email: '',
       phone: ''
     })
+
+    window.location = '/';
   }
 
   render() {
